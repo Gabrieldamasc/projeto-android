@@ -31,10 +31,10 @@ header{
 
 header h1{
     color: white;
-    font-family: var(--fonte-Destaque);
+    font-family: var(--fonte-especial);
     padding: 10px;
     text-align: center;
-    text-shadow: 1px 1px 4px black;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
 }
 
 header p{
@@ -148,6 +148,10 @@ aside{
     padding: 30px;
     border-radius: 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.244);
+}
+
+aside p{
+    padding-left: 30px;
 }
 
 aside ul{
